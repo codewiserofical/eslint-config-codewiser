@@ -1,0 +1,45 @@
+{
+  "name": "@codewiser/eslint-config",
+  "version": "1.0.0",
+  "private": false,
+  "description": "ESLint configuration",
+  "main": "node.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codewiserofical/eslint-config-codewiser.git"
+  },
+  "keywords": [
+    "eslint",
+    "codewiser"
+  ],
+  "author": "Tássio Rego",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codewiserofical/eslint-config-codewiser/issues"
+  },
+  "homepage": "https://github.com/codewiserofical/eslint-config-codewiser#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.7"
+  },
+  "peerDependencies": {
+    "eslint": "^8.38.0",
+    "typescript": ">=5.0.4"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  }
+}
